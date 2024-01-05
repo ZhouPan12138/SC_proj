@@ -8,12 +8,17 @@ You have to install in your system soft AP hostapd and dnsmasq to create the AP 
 
 ```bash
 $sudo apt-get install hostapd dnsmasq
+```
 
 After installation is done, simply run in your terminal:
+```bash
 $python3 main.py
+```
 
 It automatically runs all the services
 (remember install library used of the python if you don't have it)
 
 If the services cannot run. Try to disconnect your networkmanager.
+```bash
 $sudo nmcli networking off
+```
