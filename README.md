@@ -10,7 +10,15 @@ You have to install in your system soft AP hostapd and dnsmasq to create the AP 
 $sudo apt-get install hostapd dnsmasq
 ```
 
-After installation is done, simply run in your terminal:
+After installation is done, in the code, change the interface name to one you want to use as the AP. You can modify SSID and Password. 
+```python
+if __name__ == "__main__":
+    interface = "wlo1"
+    SSID_AP = "MyAP"
+    Password_AP = "123123123"
+```
+
+Then, simply run in your terminal:
 ```bash
 $python3 main.py
 ```
