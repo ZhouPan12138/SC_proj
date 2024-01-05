@@ -30,3 +30,7 @@ If the services cannot run. Try to disconnect your networkmanager.
 ```bash
 $sudo nmcli networking off
 ```
+
+Github repo: [https://github.com/ZhouPan12138/SC_proj](https://github.com/ZhouPan12138/SC_proj)
+
+Video demo link: [https://www.youtube.com/watch?v=UbctQKdAOA8](https://www.youtube.com/watch?v=UbctQKdAOA8)
