@@ -5,6 +5,8 @@ This githup repository program creates a wifi acces point based on a "Time of da
 It uses Python to run it.
 
 You have to install in your system soft AP hostapd and dnsmasq to create the AP and give IP. You can install it by typing in the terminal:
+
+```bash
 $sudo apt-get install hostapd dnsmasq
 
 After installation is done, simply run in your terminal:
